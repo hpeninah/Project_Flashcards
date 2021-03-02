@@ -15,7 +15,7 @@ function Home({ decks, setDecks, cards, setCards }) {
                 {/* Create Deck Button brings the user to the Create Deck Screen */}
                 <Link to="/decks/new">
                     <button className="btn btn-secondary">
-                        <i class="bi bi-plus"></i> Create Deck
+                        <i className="bi bi-plus"></i> Create Deck
                     </button>
                 </Link>
             </div>
